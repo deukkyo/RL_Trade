@@ -25,7 +25,7 @@ if __name__ == '__main__':
     parser.add_argument('--discount_factor', type=float, default=0.7)  # 할인율
     parser.add_argument('--balance', type=int, default=100000000)  # 주식투자 시뮬레이션을 위한 초기자본금
     args = parser.parse_args()
-
+ # dddd
     # 학습기 파라미터 설정
     output_name = f'{args.mode}_{args.name}_{args.rl_method}_{args.net}'
     learning = args.mode in ['train', 'update']
